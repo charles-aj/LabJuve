@@ -4,7 +4,7 @@
   <title>AlertMi - Chamados</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link href="https://charles-aj.github.io/LabJuve/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="src/css">
 </head>
 <body>
   <header>
@@ -21,35 +21,24 @@
   </nav>
 
   <main>
-    <h2>Bem-vindo ao AlertMi! </h2>
-    
-    <center>
-    <p>
-      Aqui você pode encontrar respostas para suas perguntas frequentes e abrir tickets de suporte.
-    </p>
-    <br>
-    
-    <center>
-        <p>Qual é o chamado?</p>
-      </center>
+      <hr>
+    <h2>Bem-vindo ao AlertMi!</h2>
+    <p>Qual é o chamado?</p>
     
     <form method="post" action="cadastrar-enquete.php">
-    <select name="time">
-    <option value="Assalto">Assalto</option>
-    <option value="Lixo">Lixo</option>
-    <option value="Poste">Poste</option>
-    <option value="Asfalto">Asfalto</option>
-    </select>
-    
-    <center>
-    <input type="submit" value="Enviar" />
-    </center>
+      <select name="time">
+        <option value="Escolha Aqui">Escolha Aqui</option>
+        <option value="Assalto">Assalto</option>
+        <option value="Lixo">Lixo</option>
+        <option value="Poste">Poste</option>
+        <option value="Asfalto">Asfalto</option>
+      </select>
+      <input type="submit" value="Enviar">
+    </form>
+  </main>   
 
-  </main>
-
-  
   <footer>
-    <p>&copy; 2023 Helpdesk. Todos os direitos reservados.</p>
+    <p>&copy; 2023 AlertMi. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
