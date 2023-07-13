@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 p {
-  color: #fff;
+  color: #000000;
   padding: 5px;
   text-align: center;
 }
@@ -86,7 +86,7 @@ footer {
 }
 
 h2 {
-  color: #fff;
+  color: #000000;
   padding: 10px;
   text-align: center;
 }
@@ -113,7 +113,7 @@ option[value="Asfalto"] {
 
 input[type="submit"] {
   background-color: #246496;
-  color: #fff;
+  color: #fafafa;
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
@@ -137,7 +137,7 @@ form label {
 select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 20px;
   box-sizing: border-box;
   margin-bottom: 10px;
@@ -156,7 +156,7 @@ select option {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #fff;
+    color: #000000;
   }
   
   textarea {
